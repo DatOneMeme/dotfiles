@@ -14,13 +14,12 @@ alias r="ranger"
 alias v="vim"
 alias untargz="tar -xvzf"
 alias ezarchupdate="sudo pacman -Syu"
-alias g="git"
-alias gi="git init"
 alias ssn="sudo shutdown now"
 alias home="cd ~/"
 alias ls='ls --color=auto'
 alias g="git"
+alias gi="git init"
 alias gpom="git push origin master"
 
-# Runs cd to any directory just by typing in the directoy name.
+# Runs cd to any directory just by typing in the directory name.
 shopt -s autocd
