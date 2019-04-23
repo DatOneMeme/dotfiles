@@ -19,6 +19,8 @@ alias gi="git init"
 alias ssn="sudo shutdown now"
 alias home="cd ~/"
 alias ls='ls --color=auto'
+alias g="git"
+alias gpom="git push origin master"
 
 # Runs cd to any directory just by typing in the directoy name.
 shopt -s autocd
