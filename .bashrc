@@ -14,7 +14,7 @@ alias r="ranger"
 alias v="vim"
 alias untargz="tar -xvzf"
 alias ezarchupdate="sudo pacman -Syu"
-alias ssn="sudo shutdown now"
+alias ssdn="sudo shutdown now"
 alias home="cd ~/"
 alias ls='ls --color=auto'
 alias g="git"
