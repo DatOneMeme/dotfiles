@@ -19,6 +19,7 @@ alias home="cd ~/"
 alias ls='ls --color=auto'
 alias g="git"
 alias gi="git init"
+alias ga="git add"
 alias gpom="git push origin master"
 
 # Runs cd to any directory just by typing in the directory name.
