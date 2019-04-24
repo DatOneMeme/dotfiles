@@ -29,7 +29,7 @@ bindsym $mod+shift+f exec firefox
 bindsym $mod+shift+t exec scrot
 
 # [i3wm's Keybinds]
-bindsym $mod+Return exec st
+bindsym $mod+Return exec st -e tmux
 
 bindsym $mod+Shift+q kill
 
