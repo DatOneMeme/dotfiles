@@ -9,6 +9,7 @@ font pango:inconsolata 10
 exec --no-startup-id feh --bg-scale ~/Pictures/Desktops/ArchLinuxDesktop1.png
 exec --no-startup-id nm-applet
 exec --no-startup-id xcompmgr
+exec_always --no-startup-id /home/notroot/.config/polybar/launch.sh
 
 # Stuff relating to i3-gaps.
 gaps inner 8 
@@ -113,8 +114,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # My Status Bar is Bumblebee-Status, looks clean and gets the job done.
-bar {
-       	status_command ~/Programs/bumblebee-status/bumblebee-status -m arch-update xkcd disk kernel brightness amixer battery datetime -t greyish-powerline
-        position bottom
-}
+# bar {
+#        	status_command ~/Programs/bumblebee-status/bumblebee-status -m arch-update xkcd disk kernel brightness amixer battery datetime -t greyish-powerline
+#         position top
+# }
 # End of file
