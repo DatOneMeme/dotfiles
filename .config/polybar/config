@@ -48,7 +48,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = i3 mpd
 modules-center = 
-modules-right = filesystem pulseaudio wlan eth battery date powermenu
+modules-right = filesystem pulseaudio wlan eth battery cpu temperature date powermenu
 
 tray-position = right
 tray-padding = 0
