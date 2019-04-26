@@ -21,8 +21,8 @@ for_window [class="^.*"] border pixel 1
 # (My Own Keybinds)
 bindsym $mod+F10 exec amixer -q set Master 5%+ unmute
 bindsym $mod+F9 exec amixer -q set Master 5%- unmute
-bindsym $mod+F3 exec xbacklight -inc 5
-bindsym $mod+F2 exec xbacklight -dec 5
+bindsym $mod+F3 exec xbacklight -inc 10
+bindsym $mod+F2 exec xbacklight -dec 10
 
 bindsym $mod+shift+x exec i3lock
 bindsym $mod+shift+f exec firefox
@@ -112,10 +112,4 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
-# My Status Bar is Bumblebee-Status, looks clean and gets the job done.
-# bar {
-#        	status_command ~/Programs/bumblebee-status/bumblebee-status -m arch-update xkcd disk kernel brightness amixer battery datetime -t greyish-powerline
-#         position top
-# }
 # End of file
