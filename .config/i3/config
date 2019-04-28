@@ -19,8 +19,8 @@ smart_gaps on
 for_window [class="^.*"] border pixel 1
 
 # (My Own Keybinds)
-bindsym $mod+F10 exec amixer -q set Master 5%+ unmute
-bindsym $mod+F9 exec amixer -q set Master 5%- unmute
+bindsym $mod+F8 exec amixer -q set Master 5%+ unmute
+bindsym $mod+F7 exec amixer -q set Master 5%- unmute
 bindsym $mod+F3 exec xbacklight -inc 5 
 bindsym $mod+F2 exec xbacklight -dec 5
 
