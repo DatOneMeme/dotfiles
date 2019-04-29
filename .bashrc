@@ -3,7 +3,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PS1='[\u@\h \W]\$ '
+PS1="\[\033[38;5;33m\][\[$(tput sgr0)\]\[\033[38;5;15m\]\u@\h \w\[$(tput sgr0)\]\[\033[38;5;33m\]]\[$(tput sgr0)\]\[\033[38;5;15m\]\\$ \[$(tput sgr0)\]"
 
 # Sets vim as the default editor.
 export VISUAL=vim

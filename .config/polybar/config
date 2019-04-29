@@ -48,7 +48,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = i3 mpd
 modules-center = 
-modules-right = filesystem pulseaudio wlan eth battery cpu temperature date powermenu
+modules-right = filesystem pulseaudio wlan eth temperature battery date powermenu
 
 tray-position = right
 tray-padding = 0
@@ -272,7 +272,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT0
+battery = BAT1
 adapter = ADP0
 full-at = 98
 
@@ -282,7 +282,7 @@ format-charging-underline = #ffb52a
 format-discharging = <animation-discharging> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
+format-full-prefix = "  "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
