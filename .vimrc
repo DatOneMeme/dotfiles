@@ -21,3 +21,4 @@ set noswapfile " No swap file.
 set number " Enables numbering on lines.
 set encoding=utf-8 " UTF-8 encoding.
 set backspace=2 " Changes backspace to be more like other editors.
+
